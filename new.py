@@ -65,10 +65,13 @@ class YandexDisk:
         if response.status_code == 201 or 202:
             print("File uploded successfully")
 
-access_token = 'vk1.a.uGdZhPpsBcNE8qEvAzfhXU78XsV1D0OH8pYT9PkwowxkF8bHzSiz7lQjH8hkhhwbhcOuuyacmwftHWgLbuIr6MIHyBiLJq6AuonZ2_8oa1cyoE-l7JEv5wXB_1gINTA3sY9tBFB9bAnAKVyGvJsVn-h5ZlgU9eS8yfWBOEb01r4KnJmwAnCRL7tR9J-1HnwV'
+
+
+
+access_token = ''
 user_id = '28357841'
 vk = VK(access_token, user_id)
-ya = YandexDisk(token="AQAAAABAMm1eAAhPkbTv2OuBNUx2tx0lwdlCduM")
+ya = YandexDisk(token="")
 
 list = vk.get_profile_photos() # получение списка с фотографиями для закгрузки
 
